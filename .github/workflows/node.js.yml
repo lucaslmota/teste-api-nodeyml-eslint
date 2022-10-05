@@ -29,6 +29,3 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - uses: sibiraj-s/action-eslint@v2
-      with:
-        files: src/
